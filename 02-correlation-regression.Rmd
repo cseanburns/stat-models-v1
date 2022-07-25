@@ -224,7 +224,7 @@ Now what is all this about the matrix being "positive-definite" and "symmetric"?
 
 Let's start by simulating data representing hypothetical humans and their heights and weights. We know these things are correlated. What we need to be able to simulate data are means and standard deviations for these two variables and their correlation.
 
-I found some data [here](https://www.geogebra.org/m/RRprACv4) which I converted into a CSV file. If you want to follow along, download the file [heights_and_weights.csv](data/heights_and_weights.csv){download="heights_and_weights.csv"}. Here's how the scatterplot looks:
+I found some data [here](https://www.geogebra.org/m/RRprACv4) which I converted into a CSV file. If you want to follow along, download the file [heights_and_weights.csv]([data/heights_and_weights.csv](https://raw.githubusercontent.com/PsyTeachR/stat-models-v1/master/data/heights_and_weights.csv){download="heights_and_weights.csv"}. Here's how the scatterplot looks:
 
 ```{r heights-and-weights, fig.cap="Heights and weights of 475 humans (including infants)"}
 handw <- read_csv("data/heights_and_weights.csv", col_types = "dd")
